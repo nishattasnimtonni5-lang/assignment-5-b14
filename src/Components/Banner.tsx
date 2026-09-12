@@ -13,8 +13,12 @@ const Banner = () => {
             <div className="flex gap-4 pl-7 p ">
             <button className="bg-gradient-to-r from-orange-400 to-pink-500 text-white font-bold hover:bg-none hover:bg-amber-50 hover:text-pink-500  rounded-md py-3 px-3 ">Explore Technologies</button>
             <button className="border rounded-md py-3 px-13 border border-gray-400 text-gray-500 font-bold hover:bg-gray-500 hover:text-white">Learn More</button>
-        </div>
         
+        </div>
+        <div className="pl-5 pt-15">
+            <h1 className="text-3xl font-bold">Explore the <span className="text-pink-500">Technologies</span></h1>
+       <p className="text-gray-500 pt-2 text-sm">Pick one technology per category to build your ideal stack</p>
+        </div>
     
       </div>
     );

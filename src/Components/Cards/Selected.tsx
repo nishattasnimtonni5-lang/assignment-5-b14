@@ -12,7 +12,7 @@ const Selected = ({card,onSelect,isSelected}:{card:Icards;
     return (
        
                
-          <div  className="border border-gray-300 rounded-md   mb-5  shadow-sm py-6 px-3 transition-all duration-300 hover:-translate-y-1">
+          <div  className="border border-gray-300 rounded-md   mb-5  shadow-sm py-6 px-2 transition-all duration-300 hover:-translate-y-1">
             <div className="flex justify-between">
              <img src={card.icon} alt="icon" className="w-8 h-8" />
                <h4 className={`border rounded-md px-2 my-1 text-blue-400 bg-blue-50 font-medium
