@@ -10,10 +10,10 @@ const Nav = () => {
             <button className="md:hidden text-2xl ml-4"></button>
          
             <div >
-                <img src={nav} alt="navbarimage" className="md:w-40 w-36 mx-8 "/>
+                <img src={nav} alt="navbarimage" className="md:w-30 w-36 mx-8 "/>
             </div>
             <nav className="flex justify-between ">
-                <ul className="hidden md:flex  items-center justify-center gap-5">
+                <ul className="hidden md:flex w-1/3  items-center justify-center gap-5">
                     <li><a href="" className="hover:text-pink-500">Home</a></li>
                     <li><a href="" className="hover:text-pink-500">Technologies</a></li>
                     <li><a href="" className="hover:text-pink-500">Projects</a></li>
@@ -26,7 +26,7 @@ const Nav = () => {
                 </div>
             </nav>
             </div>
-          <div className="divider"></div>
+         <hr className=" mx-auto border-gray-300" />
           
         </div>
         

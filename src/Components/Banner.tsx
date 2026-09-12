@@ -15,7 +15,7 @@ const Banner = () => {
             <button className="border rounded-md py-3 px-13 border border-gray-400 text-gray-500 font-bold hover:bg-gray-500 hover:text-white">Learn More</button>
         
         </div>
-        <div className="pl-5 pt-15">
+        <div className="pl-5 pt-15 pb-5">
             <h1 className="text-3xl font-bold">Explore the <span className="text-pink-500">Technologies</span></h1>
        <p className="text-gray-500 pt-2 text-sm">Pick one technology per category to build your ideal stack</p>
         </div>
