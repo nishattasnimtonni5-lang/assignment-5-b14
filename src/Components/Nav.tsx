@@ -14,11 +14,11 @@ const Nav = () => {
             </div>
             <nav className="flex justify-between ">
                 <ul className="hidden md:flex w-1/3  items-center justify-center gap-5">
-                    <li><a href="" className="hover:text-pink-500">Home</a></li>
-                    <li><a href="" className="hover:text-pink-500">Technologies</a></li>
-                    <li><a href="" className="hover:text-pink-500">Projects</a></li>
-                    <li><a href="" className="hover:text-pink-500">About</a></li>
-                    <li><a href="" className="hover:text-pink-500">Contact</a></li>
+                    <li><a href="" className="hover:text-pink-500 text-gray-500">Home</a></li>
+                    <li><a href="" className="hover:text-pink-500 text-gray-500">Technologies</a></li>
+                    <li><a href="" className="hover:text-pink-500 text-gray-500">Projects</a></li>
+                    <li><a href="" className="hover:text-pink-500 text-gray-500">About</a></li>
+                    <li><a href="" className="hover:text-pink-500 text-gray-500">Contact</a></li>
                 </ul>
                 <div className=" flex gap-5 px-3 md:gap-5  ">
                     <button className="font-semibold px-2 py-2">Sign in</button>
