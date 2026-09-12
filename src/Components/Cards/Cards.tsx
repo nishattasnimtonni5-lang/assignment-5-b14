@@ -15,8 +15,8 @@ const Cards = ({cardsPromise}:CardsPromise) => {
 const [selectedCards,setSelectedCards]=useState<Icards[]>([])
     return (
    
-         <div className="grid grid-cols-12 gap-2 py-6  items-start">
-             <div className="grid gap-2 sm:grid-cols-2  md:grid-cols-3 col-span-9 pl-5 ">
+         <div className="grid grid-cols-12 gap-2 py-6 items-start pl-4">
+             <div className="grid gap-2 sm:grid-cols-2  md:grid-cols-3 col-span-9 ">
          {cards.map((card:Icards,ind:number)=>{
             return(
         <Selected key={ind}
@@ -29,7 +29,7 @@ const [selectedCards,setSelectedCards]=useState<Icards[]>([])
         } />
             )})}
        </div>
-         <div className="col-span-3 border border-slate-300 shadow-sm rounded-md flex flex-col items-center">
+         <div className="col-span-3 border border-slate-300 shadow-sm rounded-md flex flex-col items-center ">
 <h1 className="font-bold py-4">Your Stack</h1>
 {selectedCards.length===0?(
     <p className="text-gray-500">No technologies selected yet</p>)

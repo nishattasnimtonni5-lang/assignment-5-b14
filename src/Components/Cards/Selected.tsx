@@ -12,7 +12,7 @@ const Selected = ({card,onSelect,isSelected}:{card:Icards;
     return (
        
                
-          <div  className="border border-gray-300 rounded-md   mb-5  shadow-sm py-6 px-5 transition-all duration-300 hover:-translate-y-1">
+          <div  className="border border-gray-300 rounded-md   mb-5  shadow-sm py-6 px-3 transition-all duration-300 hover:-translate-y-1">
             <div className="flex justify-between">
              <img src={card.icon} alt="icon" className="w-8 h-8" />
                <h4 className={`border rounded-md px-2 my-1 text-blue-400 bg-blue-50 font-medium
@@ -25,10 +25,10 @@ const Selected = ({card,onSelect,isSelected}:{card:Icards;
                `}>{card.badge}</h4>
                </div>
                 <h1 className="font-extrabold">{card.name}</h1>
-           <p className="mb-0 text-gray-500 pb-5 ">{card.description}</p>
+           <p className="mb-0 text-gray-500 pb-5 text-sm">{card.description}</p>
           <div className="flex justify-between items-center gap-2 pb-4">
-          <div className="border flex items-center rounded-md px-1 py-1 text-sm text-gray-500 bg-gray-200"> <h5>{card.category}</h5></div>
-           <h4 className="text-gray-500 text-sm">{card.difficulty}</h4>
+          <div className=" flex items-center rounded-md px-1 py-1 text-sm text-gray-500 bg-gray-100"> <h5>{card.category}</h5></div>
+           <h4 className="text-gray-500 text-sm whitespace-nowrap">{card.difficulty}</h4>
           <div className="flex items-center">
              <StarFilledIcon height="1em" style={{ color: '#ffda01' }} />
            <h4>{card.rating}</h4>
