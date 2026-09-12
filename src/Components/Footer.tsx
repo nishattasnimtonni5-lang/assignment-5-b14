@@ -5,7 +5,7 @@ const footer = () => {
          <hr className=" mx-auto border-gray-300" />
         <div className="flex pl-9 pt-10 gap-10"> 
         <div>
-            <img src={footerImg} alt="image" className="my-5" />
+            <img src={footerImg} alt="image" className="my-5 w-30" />
           < div className="text-sm ">
             <p className="max-w-xs text-gray-500 ">Curated tools,technologies,and resources for developers building modern software.</p>
 <ul className="flex gap-5 my-6">
