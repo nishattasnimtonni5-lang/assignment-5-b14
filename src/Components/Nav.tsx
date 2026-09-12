@@ -21,7 +21,7 @@ const Nav = () => {
                     <li><a href="" className="hover:text-pink-500 text-gray-500">Contact</a></li>
                 </ul>
                 <div className=" flex gap-5 px-3 md:gap-5  ">
-                    <button className="font-semibold px-2 py-2">Sign in</button>
+                    <button className="font-semibold px-2 py-2 text-gray-700">Sign in</button>
                     <button className="text-white border border-pink-500 bg-pink-600 hover:text-pink-500 hover:bg-white font-bold rounded-3xl px-5 py-2 transition-colors">Sign up</button>
                 </div>
             </nav>
