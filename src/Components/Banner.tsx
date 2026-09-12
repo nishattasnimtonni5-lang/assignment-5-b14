@@ -2,9 +2,9 @@
 import banner from "../assets/banner-stack.png"
 const Banner = () => {
     return (<div>
-        <div className="flex items-center pt-10">
+        <div className="flex items-center pt-10 flex-col md:flex-row">
         <div  >
-            <div className="pl-7 pb-10  ">
+            <div className="pl-7 pb-10    ">
                 <h1 className="text-6xl font-bold ">Build Your Ideal <span className="bg-linear-to-r from-orange-600 via-pink-500 to-violet-500 bg-clip-text text-transparent"> Develpment Stack </span></h1>
           <p className="text-gray-500 pt-4 text-sm pr-50px ">Explore fronted,backend,database,and tooling options,    
            compare them side by side,and put together the stack that fits your next project. </p>
@@ -16,7 +16,7 @@ const Banner = () => {
           </div>
           </div>
         
-            <img src={banner} alt="Banner" className="w-100"/>
+            <img src={banner} alt="Banner" className="md:w-100 w-full"/>
             </div>
               
            
