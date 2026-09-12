@@ -47,8 +47,8 @@ const footer = () => {
         <div className="flex flex-row justify-between  items-center gap-8 p-7">
             <p className="text-gray-500 text-xs whitespace-nowrap">&copy;2026DevStack.All rights reserved</p>
             <ul className="pr-15 flex md:gap-10 gap-4 ">
-                <li className="text-gray-500 text-xs">Privacy</li>
-                <li className="text-gray-500 text-xs">Terms</li>
+                < li > <a href="" className="hover:text-pink-500 text-gray-500  text-xs">Privacy</a></li>
+                <li > <a href="" className="hover:text-pink-500 text-gray-500 text-xs">Terms</a></li>
             </ul>
         </div>
         </div>
