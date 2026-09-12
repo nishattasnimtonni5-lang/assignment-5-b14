@@ -28,10 +28,10 @@ const Selected = ({card,onSelect,isSelected}:{card:Icards;
            <p className="mb-0 text-gray-500 pb-5 text-sm">{card.description}</p>
           <div className="flex justify-between items-center gap-2 pb-4">
           <div className=" flex items-center rounded-md px-1 py-1 text-sm text-gray-500 bg-gray-100"> <h5>{card.category}</h5></div>
-           <h4 className="text-gray-500 text-sm whitespace-nowrap">{card.difficulty}</h4>
-          <div className="flex items-center">
+           <h4 className="text-gray-500 text-xs whitespace-nowrap">{card.difficulty}</h4>
+          <div className="flex items-center ">
              <StarFilledIcon height="1em" style={{ color: '#ffda01' }} />
-           <h4>{card.rating}</h4>
+           <h4 className="">{card.rating}</h4>
            </div>
            </div>
            <div className="flex justify-center items-center py-3">

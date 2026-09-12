@@ -1,4 +1,4 @@
-import React from 'react';
+
 import nav from "../assets/logo-text.png"
 import { FiMenu } from "react-icons/fi";
 const Nav = () => {
