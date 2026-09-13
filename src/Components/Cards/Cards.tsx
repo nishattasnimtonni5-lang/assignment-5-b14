@@ -50,7 +50,7 @@ const [selectedCards,setSelectedCards]=useState<Icards[]>([])
                 setSelectedCards(
                     selectedCards.filter((item)=>item.name!==card.name)
                 );
-             
+             toast.info(`${card.name} removed from your stack!`)
                }}
                 className="px-0.5 hover:text-red-600 "> <CancelIcon height="1em" /></button>
            
