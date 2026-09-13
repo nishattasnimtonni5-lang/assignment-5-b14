@@ -10,7 +10,7 @@ const Banner = () => {
            compare them side by side,and put together the stack that fits your next project. </p>
            </div> 
             <div className="flex gap-4 pl-7   ">
-            <button className="bg-linear-to-r from-orange-400 to-pink-500 text-white font-bold hover:bg-none hover:bg-amber-50 hover:text-pink-500  rounded-md py-3 px-3 ">Explore Technologies</button>
+            <button className="bg-linear-to-r from-orange-400 to-pink-500 text-white font-bold border border-pink-500 hover:bg-none hover:bg-amber-50 hover:text-pink-500  rounded-md py-3 px-3 ">Explore Technologies</button>
             <button className="rounded-md py-3 px-13 border border-gray-400 text-gray-500 font-bold hover:bg-gray-500 hover:text-white">Learn More</button>
         
           </div>
